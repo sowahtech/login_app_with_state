@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, TextInput, RefreshControl, TouchableOpacity, ScrollView, FlatList } from 'react-native';
-import ContactsScreen from './ContactsScreen';
+import { StyleSheet, View } from 'react-native';
 import LoginScreen from './LoginScreen';
-import Contacts from './components/Contacts';
 
 class App extends Component {
 
 	render() {
 		return (
 			<View style={styles.container}>
-				<ContactsScreen />
+				<LoginScreen />
 			</View>
 		);
 	}
@@ -19,9 +17,7 @@ class App extends Component {
 const styles = StyleSheet.create({
 	container: {
 		marginTop: 100
-	},
-
-
+	}
 });
 
 export default App;

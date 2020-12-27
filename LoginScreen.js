@@ -103,6 +103,6 @@ const styles = StyleSheet.create({
         fontSize: 16,
         color: '#762f9b'
     }
-})
+});
 
 export default LoginScreen;
